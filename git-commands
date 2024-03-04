@@ -1,0 +1,114 @@
+    1  git config -re
+    2  git config -e
+    3  cd ..
+    4  cd Desktop/
+    5  mkdir git
+    6  cd git/
+    7  git clone git@github.com:abdullahzen/unity-git-tutorial.git
+    8  git clone https://github.com/abdullahzen/unity-git-tutorial.git
+    9  rm -rf unity-git-tutorial/
+   10  clear
+   11  git
+   12  git clone https://github.com/abdullahzen/unity-git-tutorial.git
+   13  cd unity-git-tutorial/
+   14  ls -al
+   15  git checkout -b feature-1-animation
+   16  git branch
+   17  git checkout main
+   18  git checkout -b feature-1-animation
+   19  git branch
+   20  git checkout feature-1-animation 
+   21  git log
+   22  clear
+   23  git log
+   24  git checkout main
+   25  git log
+   26  git checkout feature-1-animation 
+   27  clear
+   28  ls -al
+   29  vim README.md
+   30  git status
+   31  ls -al
+   32  git add .
+   33  git status
+   34  clear
+   35  git restore --staged README.md 
+   36  ls -al
+   37  git status
+   38  ls -al
+   39  cd Assets/
+   40  ls a-l
+   41  ls -al
+   42  vim CueController.cs
+   43  git status
+   44  cd ..
+   45  clear
+   46  git diff
+   47  git status
+   48  git add .
+   49  git status
+   50  git commit -m "Added readme file and a debug message"
+   51  git config --global --edit
+   52  git log
+   53  clear
+   54  git log
+   55  git commit --amend
+   56  git log
+   57  git commit --amend --reset-author
+   58  clear
+   59  git log
+   60  git status
+   61  clear
+   62  git status
+   63  git branch
+   64  git push -u origin feature-1-animation
+   65  clear
+   66  git log
+   67  git reset HEAD~1
+   68  git status
+   69  git log
+   70  git push
+   71  git push -f
+   72  git status
+   73  git add .
+   74  git restore --staged .
+   75  clear
+   76  git status
+   77  git add Assets/
+   78  git status
+   79  git commit -m "Added debug log message"
+   80  git push
+   81  clear
+   82  git status
+   83  git checkout -b readme
+   84  git log
+   85  clear
+   86  git branch -D readme
+   87  git checkout main
+   88  git checkout -D readme
+   89  git branch -D readme
+   90  git checkout -b readme
+   91  git add .
+   92  git status
+   93  git commit -m "Readme file"
+   94  git push
+   95  git push -u origin readme
+   96  vim README.md 
+   97  git add .
+   98  git commit -m "added line"
+   99  git push
+  100  vim README.md 
+  101  git add .
+  102  git commit -m "Added another line ..."
+  103  git push
+  104  git log
+  105  git checkout main
+  106  git pull
+  107  git log
+  108  clear
+  109  git revert 4e5a4926bae353b40a0071778a85c10403a1f414
+  110  git log
+  111  git push
+  112  clear
+  113  history
+  114  history | tee git-commands
