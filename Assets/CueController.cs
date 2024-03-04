@@ -20,6 +20,7 @@ public class CueController : MonoBehaviour
 
     public void HitBall()
     {
+	Debug.Log("test");
         cueBall.GetComponent<Rigidbody>().AddForce(Vector3.forward * Time.deltaTime * 10, ForceMode.Impulse);
     }
     public void HideTriangle()
