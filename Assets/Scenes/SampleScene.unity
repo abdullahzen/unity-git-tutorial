@@ -357,6 +357,10 @@ PrefabInstance:
       value: Bilardo
       objectReference: {fileID: 0}
     - target: {fileID: 7875667661472190011, guid: 76b1a7112a6eb924286d02e8b83f48e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.508
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875667661472190011, guid: 76b1a7112a6eb924286d02e8b83f48e4, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
