@@ -9,13 +9,13 @@ public class CueController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void HitBall()
@@ -29,7 +29,7 @@ public class CueController : MonoBehaviour
 
     private void ApplyForces(){
         cueBall.GetComponent<Rigidbody>().AddForce(Vector3.forward * Time.deltaTime * 10, ForceMode.Impulse);
-        Debug.Log("Adding second force");
-        cueBall.GetComponent<Rigidbody>().AddForce(Vector3.left * Time.deltaTime * 2, ForceMode.Impulse);
+        Debug.log("Helloo from yaman ^_^");
+        cueBall.GetComponent<Rigidbody>().AddForce(Vector3.right * Time.deltaTime * 2, ForceMode.Impulse);
     }
 }
