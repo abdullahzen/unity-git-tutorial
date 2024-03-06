@@ -308,6 +308,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 380329200118675882, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.643
+      objectReference: {fileID: 0}
+    - target: {fileID: 380329200118675882, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.185
+      objectReference: {fileID: 0}
+    - target: {fileID: 380329200118675882, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.248
+      objectReference: {fileID: 0}
     - target: {fileID: 820866996694949974, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -352,9 +364,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4378527488396910091, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.543
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378527488396910091, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378527488396910091, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 5808759738523257295, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
       propertyPath: m_Name
       value: Bilardo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7312213166016183136, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe22bd48dcad2a0419f5e9316b04d5bd, type: 3}
